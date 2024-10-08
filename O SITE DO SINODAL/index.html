@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TecBlog - Seu blog de tecnologia</title>
+    <link rel="stylesheet" href="css/style.css">
+    <meta name="description" content="TecBlog - Seu blog de tecnologia com as últimas novidades sobre jogos, celulares, informática e eletrônicos.">
+    <meta name="keywords" content="tecnologia, jogos, celulares, informática, eletrônicos, análises, novidades">
+    <link rel="shortcut icon" href="img/images (2).png" type="image/x-icon">
+    <meta property="og:title" content="TecBlog - Seu blog de tecnologia">
+    <meta property="og:description" content="Fique por dentro das últimas novidades em tecnologia, jogos, celulares, informática e eletrônicos.">
+    <meta property="og:image" content="images/banner.jpg">
+    <meta property="og:url" content="https://www.seusite.com.br/index.html">
+    <meta name="twitter:card" content="summary_large_image">
+  </head>
+  <body>
+    <header>
+      <div class="header-container">
+        <div class="logo">
+          <img src="img/images (2).png" alt="">
+          <h1>Tec<span class="branco">Blog</span></h1>
+        </div>
+        <button class="menu-toggle" aria-label="Abrir Menu">&#9776;</button>
+        <nav class="menu">
+          <a href="index.html">Home</a>
+          <a href="jogos.html">Jogos</a>
+          <a href="celulares.html">Celulares</a>
+          <a href="informatica.html">Informática</a>
+          <a href="eletronicos.html">Eletrônicos</a>
+        </nav>
+      </div>
+    </header>
+
+    <div class="banner">
+      <div class="carousel-container">
+        <div class="carousel">
+          <div class="carousel-item">
+            <img src="img/atribuna-economia-20120325-trecho-peq.jpg" alt="Slide 1">
+          </div>
+          <div class="carousel-item">
+            <img src="img/02151559_27918_GDO.png" alt="Slide 2">
+          </div>
+          <div class="carousel-item">
+            <img src="img/tumblr_p4ewwneKu91qd9kg1o1_1280.jpg" alt="Slide 3">
+          </div>
+        </div>
+      </div>
+    
+      <div class="banner-content">
+        <h2>Bem-vindo ao TecBlog!</h2>
+        <p>Fique por dentro das últimas novidades em tecnologia, jogos, celulares e muito mais.</p>
+        <a class="btn" href="posts/postagem1.html">Saiba Mais</a>
+      </div>
+    
+      <button class="carousel-control prev" onclick="prevSlide()">&#10094;</button>
+      <button class="carousel-control next" onclick="nextSlide()">&#10095;</button>
+    </div>
+    
+
+    <main>
+      <div class="container">
+        <section class="content">
+          <div class="postagem">
+            <h2>A Tecnologia Cresce e Gera Emprego</h2>
+            <span class="data-postagem">Postado em 29 de outubro de 2023</span>
+            <img class="img-post" src="img/foto7.jpg" alt="Imagem da Postagem 1">
+            <p>A tecnologia é um dos setores que mais cresce na economia global. Nos últimos anos, observamos uma transformação significativa em diversas áreas devido ao avanço tecnológico. Empresas têm investido cada vez mais em inovação...</p>
+            <a class="btn" href="postagem1.html">Leia mais</a>
+          </div>
+          <div class="postagem">
+            <h2>A Tecnologia Evoluiu Para o Bem?</h2>
+            <span class="data-postagem">Postado em 30 de outubro de 2023</span>
+            <img class="img-post" src="img/NOTA-5.2-A-TRIBUNA.jpg" alt="Imagem da Postagem 1">
+            <p>A tecnologia é uma força motriz que transforma constantemente o mercado de trabalho. Recentemente, uma pesquisa revelou que 137 profissões estão ameaçadas pela automação e pelo avanço da inteligência artificial. Esses desenvolvimentos estão moldando...</p>
+            <a class="btn" href="postagem2.html">Leia mais</a>
+          </div>
+
+        </section>
+
+        <aside class="sidebar">
+          <div class="widget">
+            <h3>Postagens recentes</h3>
+            <div class="postagem-lateral">
+              <p>A tecnologia é um dos setores que mais cresce na economia global. Nos últimos anos, observamos uma transformação significativa em diversas áreas devido ao avanço tecnológico. Empresas têm investido cada vez mais em inovação...</p>
+              <a href="postagem1.html">Leia mais</a>
+            </div>
+            <div class="postagem-lateral">
+              <p>A tecnologia é uma força motriz que transforma constantemente o mercado de trabalho. Recentemente, uma pesquisa revelou que 137 profissões estão ameaçadas pela automação e pelo avanço da inteligência artificial. Esses desenvolvimentos estão moldando...</p>
+              <a href="postagem2.html">Leia mais</a>
+            </div>
+          </div>
+
+          <div class="widget">
+            <h3>Categorias</h3>
+            <ul class="categorias">
+              <li><a href="jogos.html">Jogos</a></li>
+              <li><a href="musica.html">Música</a></li>
+              <li><a href="programacao.html">Programação</a></li>
+              <li><a href="futebol.html">Futebol</a></li>
+              <li><a href="software-livre.html">Software Livre</a></li>
+            </ul>
+          </div>
+        </aside>
+      </div>
+    </main>
+
+    <footer>
+      <div class="footer-info">
+        <div>
+          <h4>Sobre o TecBlog</h4>
+          <p>O TecBlog é um espaço dedicado a compartilhar as últimas novidades, tendências e análises sobre tecnologia, jogos, celulares, informática e eletrônicos. Nosso objetivo é oferecer aos leitores um conteúdo diversificado e atualizado, com informações detalhadas sobre os lançamentos mais recentes do mercado, inovações tecnológicas e dicas práticas para otimizar o uso de gadgets e dispositivos.
+          </p>
+        </div>
+        <div>
+          <h4>Links Úteis</h4>
+          <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="jogos.html">Jogos</a></li>
+            <li><a href="celulares.html">Celulares</a></li>
+            <li><a href="informatica.html">Informática</a></li>
+            <li><a href="eletronicos.html">Eletrônicos</a></li>
+          </ul>
+        </div>
+        <div>
+          <h4>Contato</h4>
+          <ul>
+            <li>Email: contato@tecblog.com.br</li>
+            <li>Telefone: (11) 1234-5678</li>
+            <li>Endereço: Rua sei la, 123, Gravataí, RS</li>
+          </ul>
+        </div>
+      </div>
+      <div class="rodape">
+        &copy; 2024 TecBlog. Todos os direitos reservados.
+      </div>
+    </footer>
+
+    <button id="back-to-top" title="Voltar ao Topo">↑</button>
+
+    <script src="js/script.js"></script>
+  </body>
+</html>
